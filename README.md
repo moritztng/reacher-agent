@@ -43,6 +43,8 @@ Then, place the file in the GitHub repository, and unzip (or decompress) the fil
 ## Training
 I framed this problem as a Markov Decision Process. Therefore it makes sense to tackle the problem with reinforcement learning. However, in this environment we have a **continuous action space**. Hence, we can't make use of traditional value based methods, like **(Deep-)Q-Learning**. That means we have to use some kind of policy based method. However, in most problems value based methods perform way better than policy based methods. Thus we choose something in between and make use of an **actor critic method**, namely **DDPG**. For more information take a look at the [Notebook](train.ipynb) or the [report](report.md). 
 
+I trained the agent in a different environment. Hence you are not able to execute the training code. However, you can test it on your local machine. 
+
 ## Testing
 You are able to test the agent with the trained weigths by executing `test.py`. 
 You can change the number of **episodes** with the following command:
