@@ -49,6 +49,7 @@ We can see that the actor gets better and better faster and faster until it slow
 This plot shows the average loss of the critic over 10 episodes. 
 We can see, that the loss increases until the environment is solved at about 600 episodes and after that decreases. 
 
-
-
+## Future Development
+First of all, I did not too much finetuning. So there is room for improvement by adjusting the hyperparameters.
+Additionaly, I think one can benefit from batch normalization in this problem, even though I did not find a way to benefit from it. Further one could learn from raw pixels or use multiple agents to solve the environment. 
 
